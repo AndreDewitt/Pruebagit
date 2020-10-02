@@ -3,26 +3,26 @@
 	function contenido(){
 		$datos=array();
 
-		$datos[0]="img/five.jpg"."||".
-				  "Mantícora"."||".
-				  "El oso de los five nights at freddys pero con cara rara.";
+		$datos[0]="img/Compu1.jpg"."||".
+				  "Computadora1"."||".
+				  "Computadora de referencia para la clase de Topicos de Programacion de MVC. Computadora con codigo ilegible y con fines de decoracion.";
 
-		$datos[1]="img/claire.png"."||".
-				  "Dragon"."||".
-				  "Personaje popular de la franquicia Resident evil.";
+		$datos[1]="img/Compu2.jpg"."||".
+				  "Computadora2"."||".
+				  "Computadora de referencia para la clase de Topicos de Programacion de MVC. Computadora con codigo ilegible y con fines de decoracion.";
 
-		$datos[2]="img/dom.jpg"."||".
-				  "Centauro"."||".
-				  "Iglesia.
+		$datos[2]="img/Compu3.jpg"."||".
+				  "Computadora3"."||".
+				  "Computadora de referencia para la clase de Topicos de Programacion de MVC. Computadora con codigo ilegible y con fines de decoracion.
 ";
 
-		$datos[3]="img/gansito.jpg"."||".
-				  "Grifo"."||".
-				  "Un gansito vs el bajo precio de la gasolina.";
+		$datos[3]="img/Compu4.jpg"."||".
+				  "Computadora4"."||".
+				  "Computadora de referencia para la clase de Topicos de Programacion de MVC. Computadora con codigo ilegible y con fines de decoracion.";
 
-		$datos[4]="img/house.jpg"."||".
-				  "Quimera"."||".
-				  "Una casa chida.";
+		$datos[4]="img/Compu5.jpg"."||".
+				  "Computadora5"."||".
+				  "Computadora de referencia para la clase de Topicos de Programacion de MVC. Computadora con codigo ilegible y con fines de decoracion.";
 		return $datos;
 	}
 

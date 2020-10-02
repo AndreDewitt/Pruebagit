@@ -4,17 +4,19 @@
 <html>
 <head>
 	<title>Google imagenes</title>
-	
+
 	<?php require_once "dependencias.php"; ?>
-	<?php 
+	<?php
 	require_once "contenido.php";
 	$datos=contenido();
 	?>
 </head>
-<body style="background-color: #343a40;color: white">	
+<body style="background-color: #C5CED7;color: Black">
 	<div class="container">
-		<h1>Presentacion de imagenes tipo Google</h1>
-		<h2>Bestias mitólogicas</h2>
+		<div style="background-color: #124C7E;color: white;width:100%;height: 100px;display:flex;justify-content: center;">
+			<h1>Presentacion de imagenes tipo Google</h1>
+		</div>
+		<h2>Tecnologias</h2>
 		<!--
 		<ul class="gridder">
 			<li class="gridder-list" data-griddercontent="#gridder-content-0">
@@ -36,24 +38,24 @@
 	-->
 
 	<ul class="gridder">
-		<?php 
+		<?php
 		for ($i=0; $i < count($datos) ; $i++):
 			$d=explode("||", $datos[$i]);
 
 			?>
-			<li class="gridder-list" 
+			<li class="gridder-list"
 			data-griddercontent="<?php echo '#gridder-content-'.$i ?>">
 				<img src="<?php echo $d[0] ?>">
 			</li>
 
 			<?php
-		endfor;  
+		endfor;
 		?>
 	</ul>
 
 	<?php
 		for ($i=0; $i < count($datos); $i++):
-		  	$d=explode("||", $datos[$i]);  
+		  	$d=explode("||", $datos[$i]);
 	?>
 		<div id="<?php echo 'gridder-content-'.$i; ?>" class="gridder-content" >
 			<div class="row">
@@ -66,7 +68,7 @@
 				</div>
 			</div>
 		</div>
-	<?php  
+	<?php
 		endfor;
 	?>
 </div>
